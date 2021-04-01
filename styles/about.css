@@ -1,0 +1,137 @@
+
+/* UNIVERSALS */
+
+html, body {
+    height:100%;
+    width:100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: rgb(22,74,65);
+    background: linear-gradient(90deg, rgba(22,74,65,1) 0%, rgba(77,119,78,1) 50%, rgba(157,200,141,1) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover, a:visited {
+    color: #fff;
+}
+
+body {
+    height: 800px;
+}
+/* HEADER STYLES */
+
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.first-content {
+    height: 400px;
+    width: 100%;
+    margin-top: -127px;
+    background-image: url('../img/Main2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+}
+
+#hero-text {
+    color: #fff;
+    width: 615px;
+    margin-left: 31.5%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px #000;
+}
+
+#nav-links {
+    float: right;
+    
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+#nav-links li {
+   padding: 10px;
+   background-color:  #f1b24a;
+   border-radius: 5px 5px 5px 5px;
+   font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+
+/* MAIN BODY */
+
+#title {
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+
+hr {
+    border-color: #000;
+    margin-top: -2px;
+}
+
+.list {
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    margin-right: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.aboutimg {
+    border-radius: 5px;
+}
+
+.list-text {
+    font-size: 35px;
+    font-style: bold;
+    padding: 10px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background: rgb(22,74,65);
+    background: linear-gradient(90deg, rgba(22,74,65,1) 0%, rgba(77,119,78,1) 50%, rgba(157,200,141,1) 100%);
+    color: #fff;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.fa {
+    font-size: 64px;
+    padding: 0 12px;
+    color: #f1b24a;
+}
+
+#social-media {
+    text-align: center;
+    padding-top: 36px;
+}
